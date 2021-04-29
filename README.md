@@ -1,0 +1,138 @@
+# Dog Classification
+
+This Project is practiced of image classification with Tensorflow.
+
+## Dog List
+
+- Strikethrough : deleted dog list
+
+- [x] **Affenpinscher - 아펜피셔**
+- [x] Afghan Hound - 아프간 하운드
+- [x] ~~**African_hunting_dog - 아프리카 들개**~~
+- [x] Airedale Terrier - 에어데일 테리어
+- [x] Alaskan Husky - 알래스칸 허스키
+- [x] ~~Alaskan Malamute - 알래스칸 맬러뮤트~~
+- [ ] American Cocker Spaniel - 아메리칸 코커 스패니얼
+- [x] ~~**American_staffordshire_terrier - 아메리칸 스태퍼드셔 테리어**~~
+- [x] **Appenzeller - 아펜젤러 **
+- [ ] ~~Australian Kelpie - 오스트레일리안 켈피~~
+- [x] **Australian Terrier - 오스트레일리안 테리어**
+- [ ] Australian Shepherd - 오스트레일리안 셰퍼드
+- [x] Basenji - 바센지
+- [x] Basset Hound - 바셋 하운드
+- [x] Beagle - 비글
+- [ ] Bearded Collie - 비어디드 콜리
+- [x] Bedlington Terrier - 베들링턴 테리어
+- [ ] Belgian Shepherd Dog - 벨지안 셰퍼드 독 (그루넌달, 말리노이스, 터뷰런, 라케노이스)
+- [x] Bernese Mountain Dog - 버니즈 마운틴 독
+- [x] **black-and-tan_coonhound - 블랙 앤 탄 쿤하운드**
+- [x] **bloodhound - 블러드 하운드 **
+- [x] ~~**bluetick coonhound - 블루틱 쿤 하운드**~~
+- [ ] Bichon Frise - 비숑 프리제
+- [x] Border Collie - 보더 콜리
+- [x] Border Terrier - 보더 테리어
+- [x] Borzoi - 보르조이
+- [x] Boston Terrier - 보스턴 테리어
+- [x] Bouvier Des Flandres - 부비에 드 플랑드르
+- [x] Boxer - 복서
+- [x] **Briard - 브리어드**
+- [x] Brittany Spaniel - 브리타니 스패니얼
+- [x] Brusseles Griffon - 브뤼셀 그리폰
+- [ ] Bull Terrier - 불 테리어
+- [ ] Bulldog - 불독
+- [x] Bullmastiff - 불마스티프
+- [x] Cairn Terrier - 케언 테리어
+- [ ] Cavalier King Charles Spaniel - 캐벌리어 킹 찰스 스패니얼
+- [x] **Chesapeake_Bay_retriever - 체서피크 베이 리트리버**
+- [x] Chihuahua - 치와와
+- [ ] Chinese Crested Dog - 차이니즈 크레스티드 독
+- [x] Chow Chow - 차우차우
+- [x] Clumber Spaniel - 클럼버 스패니얼
+- [x] Collie - 콜리
+- [x] **Curly Coated Retriever - 컬리 코티드 리트리버 **
+- [ ] Dachshund(Miniature) - 닥스훈트(미니어처)
+- [x] **Dandie Dinmont Terrier - 댄디 딘몬트 테리어 **
+- [ ] Dalmatian - 달마티안
+- [x] ~~**Dhole -승냥이**~~
+- [x] ~~**Dingo - 딩고**~~
+- [x] Dobermann - 도베르만
+- [ ] Dogo Argentino - 도고 아르젠티노
+- [x] English Cocker Spaniel - 잉글리시 코커 스패니얼
+- [x] **English Foxhound - 잉글리시 폭스하운드**
+- [ ] English Pointer - 잉글리시 포인터
+- [x] English Setter - 잉글리시 세터
+- [x] English Springer Spaniel - 잉글리시 스프링거 스패니얼
+- [x] **Entlebucher Mountain Dog - 엔틀번처 마운틴 독**
+- [x] ~~**Eskimo Dog**~~
+- [x] Flat-Coated Retriever - 플랫코티드 리트리버
+- [x] French Bulldog - 프렌치 불독
+- [x] German Shepherd Dog - 저먼 셰퍼드 독
+- [x] **German Short Haired Pointer - 저먼 쇼트헤어드 포인터**
+- [x] Giant Schnauzer - 자이언트 슈나우저
+- [x] Golden Retriever - 골든 리트리버
+- [x] **Gordon Setter - 고든세터**
+- [x] Great Dane - 그레이트 데인
+- [x] Great Pyrenees - 그레이트 피레니즈
+- [x] **Greater Swiss Mountain Dog - 그레이터 스위스 마운틴 도그**
+- [x] ~~**Groenendael - 그루넨달**~~
+- [x] **Ibizan Hound - 이비전 하운드**
+- [x] Irish Setter - 아이리시 세터
+- [x] Irish Wolfhound - 아이리시 울프하운드
+- [x] Italian Greyhound - 이탈리안 그레이하운드
+- [ ] ~~Jack Russell Terrier - 잭 러셀 테리어~~
+- [ ] Japanese Akita - 재패니즈 아키타
+- [ ] ~~Japanese Chin - 재패니즈 칭~~
+- [ ] ~~Japanese Hokkaido - 재패니즈 홋카이도~~
+- [ ] ~~Japanese Kai - 재패니즈 카이~~
+- [ ] ~~Japanese Kishu - 재패니즈 키슈~~
+- [ ] Japanese Shiba - 재패니즈 시바
+- [ ] ~~Japanese Shikoku - 재패니즈 시코쿠~~
+- [x] **Japanese Spaniel - 재패니즈 스패니얼**
+- [ ] Japanese Spitz - 재패니즈 스피츠
+- [ ] Jindo Dog - 진돗개
+- [x] Kerry Blue Terrier - 케리 블루 테리어
+- [x] Labrador Retriever - 래브라도 리트리버
+- [x] Lakeland Terrier - 레이크랜드 테리어
+- [x] Leonberger - 레온버거
+- [x] Lhasa Apso - 라사 압소
+- [x] Maltese - 말티즈
+- [x] Miniature Pinscher - 미니어처 핀셔
+- [x] Miniature Schnauzer - 미니어처 슈나우저
+- [x] Newfoundland - 뉴펀들랜드
+- [x] Norfolk Terrier - 노퍽 테리어
+- [ ] ~~Nova Scotia Duck Tolling Retriever - 노바 스코샤 덕 톨링 리트리버~~
+- [x] Old English Sheepdog - 올드 잉글리시 시프독
+- [x] Papillon - 파피용
+- [x] Pekingese - 페키니즈
+- [ ] ~~Petit Basset Griffon Vendeen - 프티 바셋 그리폰 방당~~
+- [x] Pomeranian - 포메라니안
+- [ ] ~~Poongsan Dog - 풍산개~~
+- [x] Pug - 퍼그
+- [x] Rottweiler - 로트바일러
+- [x] Saluki - 살루키
+- [x] Samoyed - 사모예드
+- [ ] ~~Sapsaree - 삽살개~~
+- [x] Schipperke - 스키퍼키
+- [z] Scottish Terrier - 스코티시 테리어
+- [z] Sealyham Terrier - 실리햄 테리어
+- [ ] Shar-pei - 샤페이
+- [x] Shetland Sheepdog - 셰틀랜드 시프독
+- [x] Shih Tzu - 시츄
+- [ ] ~~Siberian Husky - 시베리안 허스키~~
+- [x] Soft-Coated Wheaten Terrier - 소프트코티드 위튼 테리어
+- [x] St. Bernard - 세인트 버나드
+- [x] Standard Poodle - 스탠다드 푸들
+- [x] Standard Schnauzer - 스탠다드 슈나우저
+- [ ] Tibetan Spaniel - 티베탄 스패니얼
+- [ ] Toy Manchester Terrier - 토이 맨체스터 테리어
+- [x] Toy Poodle - 토이 푸들
+- [x] Toy Terrier - 토이 테리어
+- [x] Weimaraner - 바이마라너
+- [x] Welsh Corgi Cardigan - 웰시 코르기 카디건
+- [x] Welsh Corgi Pembroke - 웰시 코르기 펨부르크
+- [ ] Welsh Terrier - 웰시 테리어
+- [x] West Highland White Terrier - 웨스트 하이랜드 화이트 테리어
+- [x] Whippet - 휘핏
+- [ ] Wire Fox Terrier - 와이어 폭스 테리어
+- [ ] ~~Wolf Dog - 울프 독~~
+- [x] Yorkshire Terrier - 요크셔 테리어
